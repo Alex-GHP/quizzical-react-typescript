@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #F5F7FB;
+  font-family: 'Karla', sans-serif;
+}
+
+.correct-answer {
+  background-color: #94D7A2;
+  color: #293264;
+}
+
+.incorrect-answer {
+  background-color: #F8BCBC;
+  color: #293264;
+  opacity: 50%;
+}
